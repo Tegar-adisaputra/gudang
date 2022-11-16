@@ -1,0 +1,20 @@
+body {
+    background-color: #fdfaf6;
+}
+.btn {
+    font-size: large;
+}
+.btn1 {
+    padding: 5px 8px 5px 8px;
+    border: 2px solid #064420;
+    color: #064420;
+}
+.btn2 {
+    padding: 6px 8px 6px 8px;
+    background-color: #064420;
+    color: #fdfaf6;
+}
+.navbar {
+    background-color: #e4efe7;
+    height: 80px;
+}
