@@ -8,11 +8,26 @@ body {
     padding: 5px 8px 5px 8px;
     border: 2px solid #064420;
     color: #064420;
+    margin-right: 8px;
+}
+.btn1:hover {
+    padding: 5px 8px 5px 8px;
+    border: 2px solid #064420;
+    color: #fdfaf6;
+    background-color: #064420;
+    transition: 0.6s;
 }
 .btn2 {
     padding: 6px 8px 6px 8px;
     background-color: #064420;
     color: #fdfaf6;
+}
+.btn2:hover {
+    padding: 5px 6px 5px 6px;
+    background-color: #fdfaf6;
+    color: #064420;
+    border: 2px solid #064420;
+    transition: 0.6s;
 }
 .navbar {
     background-color: #e4efe7;
