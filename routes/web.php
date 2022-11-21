@@ -19,13 +19,3 @@ Route::get('/', function () {
 Route::get('/register', function () {
     return view('user/register');
 });
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
