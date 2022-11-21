@@ -1,5 +1,6 @@
 body {
     background-color: #fdfaf6;
+    font-family: "Comfortaa", cursive;
 }
 .btn {
     font-size: large;
@@ -29,8 +30,50 @@ body {
     border: 2px solid #064420;
     transition: 0.6s;
 }
+.btn-login {
+    background-color: #fdfaf6;
+    font-size: larger;
+    border: none;
+    padding: 4px 10px 4px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #a0855b;
+    color: #38470b;
+    transition: 0.5s;
+}
+.btn-login:hover {
+    background-color: #e0cfb8;
+    font-size: larger;
+    border: none;
+    padding: 4px 10px 4px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #a0855b;
+    color: #38470b;
+    transition: 0.5s;
+}
+.font1 {
+    font-size: 40px;
+    color: #38470b;
+    text-shadow: 1px 2px 2px #a0855b;
+}
+.form-login {
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+}
 .home-started {
     margin-top: 100px;
+}
+.login-box {
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px 2px 20px 2px;
+    border-radius: 15px;
+    box-shadow: 5px 6px 6px #a0855b;
+    background-color: #f1d6ab;
 }
 .navbar {
     background-color: #e4efe7;
