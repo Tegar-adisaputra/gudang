@@ -11,6 +11,10 @@
         </div>
         <button class="btn-login">Login</button>
     </form>
+    <a href="#">
+        <h6 class="font mt-4"><b>Register</b></h6>
+    </a>
+    
 </div>
 
 @endsection()

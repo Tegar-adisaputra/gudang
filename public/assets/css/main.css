@@ -50,6 +50,10 @@ body {
     color: #38470b;
     transition: 0.5s;
 }
+.font {
+    font-size: smaller;
+    text-decoration: none;
+}
 .font1 {
     font-size: 40px;
     color: #38470b;
